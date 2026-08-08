@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Anuphan', sans-serif;
+}
+
+
+body{
+    background:#BAD797;
+    font-weight:400;
+}
+
+
+.container{
+    width:700px;
+    margin:40px auto;
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(103,6,38,.2);
+}
+
+
+h1{
+    text-align:center;
+    color:#670626;
+    margin-bottom:20px;
+    font-weight:600;
+}
+
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:500;
+    color:#670626;
+}
+
+
+h2{
+    color:#670626;
+    font-size:23px;
+    margin:35px 0 20px;
+    font-weight:600;
+}
+
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px 15px;
+    border:2px solid #BAD797;
+    border-radius:50px;
+    font-size:15px;
+    background:#fff;
+    outline:none;
+    font-weight:400;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus{
+    border-color:#670626;
+    box-shadow:0 0 5px rgba(103,6,38,.25);
+}
+
+
+textarea{
+    border-radius:20px;
+}
+
+
+.radio-group{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-top:8px;
+}
+
+
+.radio-group label{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin:0;
+}
+
+
+.radio-group input{
+    width:auto;
+    margin:0;
+}
+
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:50px;
+    cursor:pointer;
+    font-size:16px;
+    margin-right:10px;
+    font-family:'Anuphan', sans-serif;
+}
+
+
+button[type="submit"]{
+    background:#670626;
+    color:#BAD797;
+}
+
+
+button[type="submit"]:hover{
+    background:#4F041D;
+}
+
+
+button[type="reset"]{
+    background:#BAD797;
+    color:#670626;
+}
+
+
+button[type="reset"]:hover{
+    background:#A5C77D;
+}
