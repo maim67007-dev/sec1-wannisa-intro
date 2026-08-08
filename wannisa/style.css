@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:'Anuphan', sans-serif;
+    font-family:'Prompt', sans-serif;
 }
 
 
 body{
-    background:#BAD797;
+    background:#c8d3d2;
     font-weight:400;
 }
 
@@ -17,7 +16,7 @@ body{
 .container{
     width:700px;
     margin:40px auto;
-    background:#fff;
+    background:#e4e1ee;
     padding:30px;
     border-radius:15px;
     box-shadow:0 0 15px rgba(103,6,38,.2);
@@ -26,7 +25,7 @@ body{
 
 h1{
     text-align:center;
-    color:#670626;
+    color:#5e4779;
     margin-bottom:20px;
     font-weight:600;
 }
@@ -54,7 +53,7 @@ select,
 textarea{
     width:100%;
     padding:10px 15px;
-    border:2px solid #BAD797;
+    border:2px solid #6b45ac;
     border-radius:50px;
     font-size:15px;
     background:#fff;
@@ -66,7 +65,7 @@ textarea{
 input:focus,
 select:focus,
 textarea:focus{
-    border-color:#670626;
+    border-color:#47a690;
     box-shadow:0 0 5px rgba(103,6,38,.25);
 }
 
@@ -110,19 +109,19 @@ button{
 
 
 button[type="submit"]{
-    background:#670626;
-    color:#BAD797;
+    background:#5635b8c0;
+    color:#f7fda4;
 }
 
 
 button[type="submit"]:hover{
-    background:#4F041D;
+    background:#a8cfd7f9;
 }
 
 
 button[type="reset"]{
-    background:#BAD797;
-    color:#670626;
+    background:#d9dea5;
+    color:#33326d;
 }
 
 
